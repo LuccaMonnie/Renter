@@ -109,4 +109,4 @@ var tenantReviewSchema = new mongoose.Schema({
   notes: String //any additional details
 });
 
-module.exports = mongoose.model("TenantReview", accountSchema);
+module.exports = mongoose.model("TenantReview", tenantReviewSchema);

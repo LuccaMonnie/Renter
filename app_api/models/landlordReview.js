@@ -34,4 +34,4 @@ var landlordReviewSchema = new mongoose.Schema({
   notes: String //Any elaboration on those questions or other notable information you would like to share?
 });
 
-module.exports = mongoose.model("LandlordReview", accountSchema);
+module.exports = mongoose.model("LandlordReview", landlordReviewSchema);

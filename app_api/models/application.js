@@ -32,4 +32,4 @@ var applicationSchema = new mongoose.Schema({
   //add other questions when I get the scanned copy
 });
 
-module.exports = mongoose.model("Application", accountSchema);
+module.exports = mongoose.model("Application", applicationSchema);

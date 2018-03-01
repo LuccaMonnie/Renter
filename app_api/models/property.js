@@ -46,4 +46,4 @@ var propertySchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model("Property", accountSchema);
+module.exports = mongoose.model("Property", propertySchema);
