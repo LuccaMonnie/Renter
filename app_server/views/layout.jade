@@ -1,7 +1,5 @@
-
-
 doctype html
-html
+html(ng-app='renterApp')
   head
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     link(rel='stylesheet', href='/bootstrap/css/new-age.css')
@@ -19,10 +17,19 @@ html
     meta(name='description', content='')
     meta(name='author', content='')
 
-    title RENTER
+    
+    title Renter
 
     body#page-top
-
+    
       nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+
         .container
-          a.navbar-brand.js-scroll-trigger(href='/') RENTER
+      div(ng-view)
+        
+          a.navbar-brand.js-scroll-trigger(href='/') Renter
+      
+      script(src='/angular/angular.min.js')
+      script(src='/lib/angular-route.min.js')
+      script(src='/app.js')
+      script(src='/angular/renterApp.js')
